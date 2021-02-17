@@ -24,6 +24,8 @@ Files with code: ImageDetection.m (main) and ProcessImg.m
 10. Determine if Change is Significant
 11. After x time update reference
 
+![img sample](https://github.com/DavidCRicardo/SecurityCamera/blob/main/sample.png)
+
 ### Observations:
 The x time and value are variables defined by the user.
 The problem with the daylight was fixed but needs to improve the Threshold to automatically (file: ProcessImg.m, line 20).
