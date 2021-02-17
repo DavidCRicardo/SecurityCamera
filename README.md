@@ -5,7 +5,7 @@ Project developed for Academic Purposes during topic "Image Processing" in 2020
 The project will use the mobile camera to record and check if it is something or someone in the place, for example, some person or an animal, increasing the security to that place.
 
 ## What was used to run the algorithm?
-For work successfully, the algorithm was used one application, named IP Webcam, installed on the smartphone to use the mobile webcam. IP Webcam turns your phone into a network camera with multiple viewing options.
+To work successfully, the algorithm was used one application, named IP Webcam, installed on the smartphone to use the mobile webcam. IP Webcam turns your phone into a network camera with multiple viewing options.
 The code developed in MATLAB will get the IP Webcam and run the script, it will use the recorded frames by smartphone to process. The user needs to update the IP from Webcam in code if needed (file: ImageDetection.m, line 4), because when the application is turned off and on, the IP can change.
 About code
 The ImageDetection.m file will get the Camera URL from the smartphone and start recording, showing it in MATLAB. The ProcessImg.m file will ‘work’ with the images recorded and check if there is any significant difference. Both files need to stay in the same folder.
@@ -20,7 +20,7 @@ Files with code: ImageDetection.m (main) and ProcessImg.m
 6. Find Location of Difference
 7. Threshold Image and Fill in Regions
 8. Overlay into Original Image
-9. Only care about things large than value
+9. Only care about things large than the value
 10. Determine if Change is Significant
 11. After x time update reference
 
